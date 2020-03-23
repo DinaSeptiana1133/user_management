@@ -136,15 +136,15 @@ $data = mysqli_fetch_array($query);
                       <tr class="tableheader"></tr>
                       <tr>
                         <td width="40%"><label>ID</label></td>
-                        <td width="60%"><input type="text" disabled="" name="id" value="<?php echo $data['id'];?>"></td>
+                        <td width="60%"><input class="text-center" type="text" disabled="" name="id" value="<?php echo $data['id'];?>"></td>
                       </tr>
                       <tr>
                         <td><label>Username</label></td>
-                        <td><input type="text" disabled="" name="nama_lengkap" value="<?php echo $data['nama_lengkap'];?>"></td>
+                        <td><input class="text-center" type="text" disabled="" name="nama_lengkap" value="<?php echo $data['nama_lengkap'];?>"></td>
                       </tr>
                       <tr>
                         <td><label>Email</label></td>
-                        <td><input type="text" disabled="" name="email" value="<?php echo $data['email'];?>"></td>
+                        <td><input class="text-center" type="text" disabled="" name="email" value="<?php echo $data['email'];?>"></td>
                       </tr>
                     </table>
                     <a class="container btn btn-sm btn-primary text-white" href="tables.php">Close</a>
